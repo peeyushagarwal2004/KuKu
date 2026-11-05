@@ -1,0 +1,14 @@
+# Kuku's input pack is confidential: never commit it, or anything that quotes it
+data/
+*.zip
+cache/
+outputs/
+SOLUTION.md
+SOLUTION.pdf
+docs/solution.html
+
+# secrets and local tooling
+.env
+.claude/
+__pycache__/
+*.pyc
