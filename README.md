@@ -5,6 +5,8 @@ open on a hook, end on a cliffhanger, and make sense to someone who has never se
 For each promo you get the episode, exact start and end timestamps of every segment in order,
 the hook, the cliffhanger, one line on why it works, and a posting rank.
 
+**Live demo:** https://kuku-promo.streamlit.app (try the built-in sample show, or upload a .zip of episodes).
+
 ## Run it
 
 ```bash
