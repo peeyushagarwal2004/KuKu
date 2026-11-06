@@ -12,3 +12,4 @@ docs/solution.html
 .claude/
 __pycache__/
 *.pyc
+submission/
