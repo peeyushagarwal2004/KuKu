@@ -19,35 +19,65 @@ from promofinder.llm import LLMConfig, PROVIDERS, load_dotenv
 from promofinder.pipeline import run
 
 load_dotenv()
+# On Streamlit Community Cloud, keys live in the app's Secrets; expose them like a local .env would.
+try:
+    for _k, _v in dict(st.secrets).items():
+        if isinstance(_v, str):
+            os.environ.setdefault(_k, _v)
+except Exception:   # no secrets file locally
+    pass
+
+SAMPLE_DIR = Path(__file__).parent / "samples" / "The Night Shift Heiress"
+
 st.set_page_config(page_title="Promo Finder", layout="wide")
 st.title("Promo Finder")
 st.caption("Reads a microdrama's screenplays and finds 20-60 s promo clips that open on a hook, "
-           "end on a cliffhanger and make sense to a stranger.")
+           "end on a cliffhanger and make sense to a stranger. Built for the Kuku AI Generalist assignment "
+           "(Problem 1).")
 
 # ------------------------------------------------------------ inputs
 with st.sidebar:
     st.header("Model")
-    mode = st.radio("Mode", ["llm", "rules"], format_func=lambda m: "LLM (recommended)" if m == "llm"
-                    else "Rules only (free, offline, weaker)")
-    provider = st.selectbox("Provider", list(PROVIDERS), index=0, disabled=mode != "llm")
-    model = st.text_input("Model", value=PROVIDERS[provider][2], disabled=mode != "llm")
+    provider = st.selectbox("Provider", list(PROVIDERS), index=0)
     key_env = PROVIDERS[provider][1]
+    has_env_key = bool(os.getenv("LLM_API_KEY") or (key_env and os.getenv(key_env))) or provider == "ollama"
+    mode = st.radio("Mode", ["llm", "rules"], index=0 if has_env_key else 1,
+                    format_func=lambda m: "LLM (recommended)" if m == "llm" else "Rules only (free, offline, weaker)")
+    model = st.text_input("Model", value=PROVIDERS[provider][2], disabled=mode != "llm")
     api_key = st.text_input(f"API key ({key_env or 'none needed'})", type="password",
                             value="", disabled=mode != "llm" or not key_env,
-                            help="Leave blank to use the key from the environment / .env file.")
+                            help="Blank = use the key configured on the server. A free Gemini key: aistudio.google.com/apikey")
     base_url = st.text_input("Base URL", value=PROVIDERS[provider][0], disabled=mode != "llm",
                              help="Any OpenAI-compatible endpoint works.")
+    if mode == "llm" and not (has_env_key or api_key):
+        st.warning("No API key configured here. Paste one above, or switch to Rules only.")
     st.header("Run")
     ep_range = st.text_input("Episodes (blank = all)", placeholder="e.g. 1-10")
     stitch_n = st.slider("Stitched multi-episode promos", 0, 8, 5, disabled=mode != "llm")
 
-uploaded = st.file_uploader("Episode screenplays (.zip of .txt files)", type=["zip"])
-local = st.text_input("…or a local folder / .zip path", value="")
+source = st.radio("Input", ["Sample show (2 short episodes written for this demo)",
+                            "Upload a .zip of episode .txt files", "Local folder or .zip path"],
+                  horizontal=False)
+uploaded, local = None, ""
+if source.startswith("Upload"):
+    uploaded = st.file_uploader("Episode screenplays (.zip of .txt files)", type=["zip"])
+elif source.startswith("Local"):
+    local = st.text_input("Folder or .zip path on this machine", value="")
+else:
+    with st.expander("Peek at the sample script"):
+        st.code((SAMPLE_DIR / "episode-001-Episode 1.txt").read_text(encoding="utf-8")[:1800] + "\n…",
+                language=None)
+ready = bool(uploaded or local or source.startswith("Sample"))
 
-if st.button("Find promos", type="primary", disabled=not (uploaded or local)):
-    src: str | bytes = uploaded.getvalue() if uploaded else local
-    show = Path(uploaded.name).stem if uploaded else (Path(local).stem if local.lower().endswith(".zip")
-                                                       else Path(local).name)
+if st.button("Find promos", type="primary", disabled=not ready):
+    if uploaded:
+        src: str | bytes = uploaded.getvalue()
+        show = Path(uploaded.name).stem
+    elif local:
+        src = local
+        show = Path(local).stem if local.lower().endswith(".zip") else Path(local).name
+    else:
+        src, show = str(SAMPLE_DIR), SAMPLE_DIR.name
     episodes = None
     if ep_range.strip():
         episodes = []

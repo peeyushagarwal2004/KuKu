@@ -1,0 +1,131 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: Accused of killing Edmund for his fortune, Mara must survive Vanessa's public trap at the reading of the will, until a stranger in the back row stands up with a second envelope.
+CONTINUITY NOTES: Continues directly from the hospital room. Original sample written for the Promo Finder demo; not from any real show.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. HOSPITAL ROOM - NIGHT - CONTINUOUS
+Scene start: 00:00.00
+Scene end: 00:24.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Vanessa stands in the doorway with a police officer, staring at the flatlined monitor.
+
+**VANESSA (Shrieking, Theatrical):**
+Start: (00:00.50) | End: (00:03.00)
+"She killed him! She killed my grandfather!"
+
+**ACTION:**
+Start: (00:03.00) | End: (00:05.50)
+Mara backs away from the bed, the envelope trembling in her hands.
+
+**MARA (Terrified):**
+Start: (00:05.50) | End: (00:08.00)
+"No! He was already sick, I was only reading to him!"
+
+**ACTION:**
+Start: (00:08.00) | End: (00:11.00)
+Vanessa snatches the envelope from Mara and smirks as she slides it into her handbag.
+
+**VANESSA (Low, Only for Mara):**
+Start: (00:11.00) | End: (00:14.50)
+"Nobody will ever believe a cleaner over a Hartwell."
+
+**OFFICER (Stern):**
+Start: (00:14.50) | End: (00:17.00)
+"Miss, turn around. Hands behind your back."
+
+**CAMERA:**
+Start: (00:17.00) | End: (00:20.00)
+Close-up of handcuffs clicking shut around Mara's wrists.
+
+**SOUND FX:**
+Start: (00:17.50) | End: (00:18.50)
+Metallic click of the handcuffs locking.
+
+**CAMERA:**
+Start: (00:20.00) | End: (00:24.00)
+Wide shot of Mara led past Vanessa, who quietly wipes away a fake tear.
+
+SCENE 02
+Scene heading: INT. HARTWELL TOWER - BOARDROOM - DAY
+Scene start: 00:24.00
+Scene end: 01:20.00
+
+**CAMERA:**
+Start: (00:24.00) | End: (00:27.00)
+A packed boardroom; lawyers, family and press around a long table. Mara sits at the far end in borrowed clothes, an officer behind her.
+
+**LAWYER (Formal):**
+Start: (00:27.00) | End: (00:31.00)
+"We are here to read the last will of Edmund Hartwell, as presented by his granddaughter."
+
+**VANESSA (Smug):**
+Start: (00:31.00) | End: (00:35.00)
+"Grandfather left everything to me. And for her, a prison cell."
+
+**ACTION:**
+Start: (00:35.00) | End: (00:38.00)
+Laughter ripples around the table; someone throws a crumpled napkin at Mara.
+
+**MARA (Quiet, Defiant):**
+Start: (00:38.00) | End: (00:42.00)
+"He told me the truth before he died. That is not his real will."
+
+**VANESSA (Furious):**
+Start: (00:42.00) | End: (00:45.50)
+"How dare you speak in this room! Officer, take her back to her cell."
+
+**ACTION:**
+Start: (00:45.50) | End: (00:48.50)
+The officer grips Mara's shoulder and pulls her to her feet.
+
+**SOUND FX:**
+Start: (00:48.50) | End: (00:50.00)
+A chair scrapes loudly at the back of the room.
+
+**CAMERA:**
+Start: (00:48.50) | End: (00:52.00)
+Slow push-in on a tall man in a dark coat rising from the last row: Julian, Edmund's estranged son.
+
+**JULIAN (Calm, Commanding):**
+Start: (00:52.00) | End: (00:55.00)
+"Nobody is taking her anywhere."
+
+**VANESSA (Shaken):**
+Start: (00:55.00) | End: (00:57.50)
+"Uncle Julian? You were supposed to be dead."
+
+**JULIAN (Cold):**
+Start: (00:57.50) | End: (01:01.00)
+"My father made sure everyone believed that. Including you."
+
+**ACTION:**
+Start: (01:01.00) | End: (01:05.00)
+Julian lays a second sealed envelope on the table, stamped with the Hartwell wax seal.
+
+**JULIAN (Measured):**
+Start: (01:05.00) | End: (01:09.00)
+"This is his real will. And it names the person who poisoned him."
+
+**CAMERA:**
+Start: (01:09.00) | End: (01:13.00)
+Fast cuts across the stunned faces; Vanessa's hand trembles on the table.
+
+**LAWYER (Nervous):**
+Start: (01:13.00) | End: (01:16.00)
+"Shall I... read the name?"
+
+**SOUND FX:**
+Start: (01:16.00) | End: (01:19.00)
+A tense string swell rising into an abrupt cliffhanger cut.
+
+**CAMERA:**
+Start: (01:17.00) | End: (01:20.00)
+Extreme close-up on the wax seal cracking open. Cut to black.
+
+--- SCRIPT END ---

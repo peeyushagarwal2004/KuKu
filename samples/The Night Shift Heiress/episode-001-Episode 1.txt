@@ -1,0 +1,134 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: On the night she is fired from her cleaning job for a theft she did not commit, Mara discovers that the dying old man she has been reading to every night has named her in his will.
+CONTINUITY NOTES: First episode. Original sample written for the Promo Finder demo; not from any real show.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. HARTWELL TOWER - EXECUTIVE FLOOR - NIGHT
+Scene start: 00:00.00
+Scene end: 01:05.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.50)
+Wide shot of a dark glass office at midnight; a lone cleaner's cart squeaks down the corridor.
+
+**ACTION:**
+Start: (00:00.50) | End: (00:03.50)
+Mara, twenties, in a grey cleaning uniform, mops quietly past rows of empty desks.
+
+**CAMERA:**
+Start: (00:03.50) | End: (00:06.00)
+Medium shot as the office lights snap on all at once.
+
+**SOUND FX:**
+Start: (00:03.50) | End: (00:04.50)
+Loud clunk of every light switching on.
+
+**VANESSA (Cold, Triumphant):**
+Start: (00:04.20) | End: (00:06.00)
+"There she is. The thief."
+
+**CAMERA:**
+Start: (00:06.00) | End: (00:09.00)
+Close-up on Mara frozen, mop in hand, as Vanessa in a white power suit strides in with two security guards.
+
+**MARA (Confused):**
+Start: (00:06.50) | End: (00:08.00)
+"Thief? I only clean this floor."
+
+**ACTION:**
+Start: (00:09.00) | End: (00:11.50)
+Vanessa yanks open Mara's cart drawer and lifts out a diamond bracelet.
+
+**VANESSA (Mocking):**
+Start: (00:11.50) | End: (00:14.50)
+"Then explain why my bracelet is in your cart."
+
+**CAMERA:**
+Start: (00:14.50) | End: (00:17.00)
+Close-up on Mara's face draining of colour.
+
+**MARA (Desperate):**
+Start: (00:15.00) | End: (00:17.00)
+"I have never seen that in my life!"
+
+**ACTION:**
+Start: (00:17.00) | End: (00:19.50)
+Vanessa slaps Mara hard across the face; the mop clatters to the floor.
+
+**SOUND FX:**
+Start: (00:17.20) | End: (00:18.00)
+Sharp crack of the slap echoing off the glass walls.
+
+**VANESSA (Venomous):**
+Start: (00:19.50) | End: (00:23.00)
+"People like you don't get to touch nice things. You're fired. Get her out."
+
+**ACTION:**
+Start: (00:23.00) | End: (00:26.00)
+The guards grab Mara by both arms and drag her toward the elevator as staff film on their phones.
+
+**MARA (Pleading):**
+Start: (00:24.00) | End: (00:26.50)
+"Please, I need this job. My mother's rent is due on Friday!"
+
+**CAMERA:**
+Start: (00:26.50) | End: (00:30.00)
+Tracking shot of Mara being shoved into the elevator; the doors close on her tear-streaked face.
+
+**CAMERA:**
+Start: (00:30.00) | End: (00:33.00)
+Cut to a quiet private hospital room. An old man, Edmund Hartwell, lies wired to monitors.
+
+**ACTION:**
+Start: (00:33.00) | End: (00:36.00)
+Mara, still in uniform, slips into the room and sits beside him with a battered paperback.
+
+**MARA (Soft, Breaking):**
+Start: (00:36.00) | End: (00:40.00)
+"I can't come tomorrow, Mr. Edmund. They fired me. So this is our last chapter."
+
+**ACTION:**
+Start: (00:40.00) | End: (00:43.00)
+Edmund's frail hand closes around her wrist with surprising strength.
+
+**EDMUND (Hoarse, Urgent):**
+Start: (00:43.00) | End: (00:46.50)
+"Who fired you? Say the name."
+
+**MARA (Hesitant):**
+Start: (00:46.50) | End: (00:48.00)
+"Vanessa Hartwell."
+
+**CAMERA:**
+Start: (00:48.00) | End: (00:51.00)
+Close-up on Edmund's eyes hardening.
+
+**EDMUND (Grim):**
+Start: (00:48.50) | End: (00:52.50)
+"My granddaughter. Then she has already found the will."
+
+**MARA (Stunned):**
+Start: (00:52.50) | End: (00:54.50)
+"What will?"
+
+**ACTION:**
+Start: (00:54.50) | End: (00:58.00)
+The heart monitor spikes; Edmund presses a sealed envelope into Mara's hands.
+
+**EDMUND (Fading):**
+Start: (00:58.00) | End: (01:01.50)
+"The one that leaves everything... to you."
+
+**SOUND FX:**
+Start: (01:01.50) | End: (01:04.00)
+The heart monitor flatlines into a long, piercing tone.
+
+**CAMERA:**
+Start: (01:03.00) | End: (01:05.00)
+Push-in on Mara clutching the envelope as the door bursts open behind her. Cut to black.
+
+--- SCRIPT END ---
